@@ -44,6 +44,5 @@ func main() {
 		fmt.Printf("This number (%v) is prime", num)
 	} else {
 		fmt.Printf("This number (%v) is NOT prime", num)
-
 	}
 }
