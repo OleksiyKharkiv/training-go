@@ -15,7 +15,7 @@ func main() {
 		maxNumber int
 	)
 
-	fmt.Println("Enter three number one by one , pressing Rnter after each number.")
+	fmt.Println("Enter three number one by one , pressing Enter after each number.")
 	for i := 0; i < 3; i++ {
 		fmt.Printf("Enter the %v number:\n", i+1)
 		input, err := reader.ReadString('\n')
