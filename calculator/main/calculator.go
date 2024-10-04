@@ -104,5 +104,5 @@ func main() {
 		res = num1 / num2
 	}
 	fmt.Printf("The result of your operation is : %v %c %v = %v\n", num1, symb, num2, res)
-	time.Sleep(5000 * time.Millisecond)
+	time.Sleep(10000 * time.Millisecond)
 }
